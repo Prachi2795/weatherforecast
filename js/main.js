@@ -37,7 +37,7 @@ fetch('data.json')
             const longitude  = selectedCity.longitude;
             
             //apiurl contains the api url used to fetch the data from api
-            const apiurl = `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=civil&output=json`;
+            const apiurl = `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=astro&output=json`;
             // Display lat/long
             latLonDisplay.textContent = `Latitude: ${latitude}, Longitude: ${longitude}`;
 
